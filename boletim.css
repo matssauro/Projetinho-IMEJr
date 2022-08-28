@@ -1,0 +1,15 @@
+.boletim{
+    height: 450vh;
+    width: 75%;
+    background: #fafafa;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+
+}
+.button{
+    background: blue;
+    border-radius: 50%;
+    width: 80px;
+    font-size: medium;
+}
