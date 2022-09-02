@@ -1,0 +1,48 @@
+
+    .background
+        {   
+            display: flex;
+            font-family: 'Times New Roman', Times, serif;
+
+
+        }
+
+        .fundo
+        {
+            background: #fafafa;
+            width: 75%;
+            height: 450vh;
+            z-index: 1;
+        }
+
+        #Titulo
+        {
+            display: flex;
+            flex-direction: row;
+            align-items: flex-start;
+            
+            top: 65px;
+            left: 300px;
+        }
+    
+    
+
+        table
+            {
+                z-index: 2;
+                top: 100px;
+                left: 400px;
+                width: 900px;
+                position: absolute;
+            
+                font-family: 'Times New Roman', Times, serif;
+            }
+        th
+            {
+                text-align: right;
+            }
+        table, td
+                    {
+                        border: 5px solid rgb(41, 116, 228);
+                        border-radius: 3%;
+                    }
