@@ -1,0 +1,73 @@
+
+        .fundo
+        {
+            background: #fafafa;
+            width: 75%;
+            height: 450vh;
+            z-index: 0;
+        }
+
+        /*#Titulo
+        {
+            display: flex;
+            flex-direction: row;
+            align-items: flex-start;
+            
+            top: 90px;
+            left: 300px;
+        }*/
+
+    
+        .Tabela
+                {
+                    font-size: 170%;
+                    display: flex;
+                    justify-content: center;
+                    height: 340px;
+                    margin-top: 15px;
+                    
+
+                }
+
+        caption
+                {
+                    margin: 20px;
+                    font-size: 80px;
+                    /* #C12B2C*/
+                }
+                
+
+        .Tabela th
+            {
+                position: -webkit-sticky;
+                position: sticky;
+                top: 0;
+                background-color: #1D51A3;
+                padding: 12px;
+                text-align: left;
+            }
+
+        .Tabela table, td
+                    {
+                        
+                       border-collapse: collapse;
+                       border: 2px;
+                        /*border-bottom: 2px solid rgb(41, 116, 228);*/
+                        
+                        padding: 12px;/* Distância do Data das linhas de tabela! (ou célula))=*/
+                    }
+        .Tabela tr:nth-of-type(even)
+                    {
+                        background-color: #aad0ff;
+                    }
+        .Tabela tr:last-of-type
+                    {
+                        border-bottom: 3px solid #285bae;
+                    }
+        table
+                    {
+                        box-shadow: 0 0 25px 10px #888;
+                    }
+
+                
+/*------cursor-style--------*/
