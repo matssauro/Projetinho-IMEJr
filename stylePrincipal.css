@@ -1,0 +1,52 @@
+*{
+    padding: 0;
+    border: 0;
+    margin: 0;
+}
+.brasil{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 100vh;
+    width: 100%;
+    background-color: #043b74;
+}
+.home{
+    position: relative;
+    left: 10px;
+    top: 10px;
+}
+.icon{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 60px;
+    width: 60px;
+    border: 5px solid #b70002;
+    border-radius: 50%;
+}
+.icon img:hover + .icon{
+    height: 70px;
+    width: 70px;
+    animation: 0.3s;
+}
+.icon img{
+    background-color: #043b74;
+    height: 50px;
+    width: 50px;
+    object-fit: cover;
+    border-radius: 50%;
+    object-position: center;
+}
+.icon img:hover{
+    height: 60px;
+    width: 60px;
+    animation: 0.6s;
+}
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 48
+}

@@ -1,5 +1,4 @@
-#ContainerLogin
-{
+#ContainerLogin{
     width: 400px;
     text-align: center;
     height:600px;
@@ -7,41 +6,34 @@
     position: fixed;
     right: 0px;
 }
-#ContainerImg
-{
-    width:"150px";
-    height:"200px";
-    border-bottom-left-radius: 10px;
-    border-bottom-right-radius: 10px;
+#ContainerImg{
+    width:150px;
+    height:200px;
+    border-radius: 0 0 10px 10px;
 }
-input
-{
+input{
     border: 2px solid;
     border-radius: 4px;
     margin: 10px 0px;
     width:250px;
     height: 35px;
 }
-form
-{
+form{
     align-items:center;
     margin-left: auto;
     margin-right: auto;
-
 }
-button
-{
+button{
     width: 200px;
     height: 35px;
     font-size: x-large;
     border-radius: 4px;
     background-color: white;
 }
-button:hover
-{
+button:hover{
     background-color: #043b74;
 }
-.modal {
+.modal{
     position: fixed;
     top: 0;
     right: 0;
@@ -56,11 +48,11 @@ button:hover
     transition: opacity 400ms ease-in;
     pointer-events: none;
   }
-  .modal:target {
+  .modal:target{
     opacity: 1;
     pointer-events: auto;
   }
-  .modal > div {
+  .modal > div{
     width: 400px;
     position: relative;
     margin: 10% auto;
@@ -87,22 +79,21 @@ button:hover
     text-align: center;
     width: 850px;
 }
-#IMEJR
+#IMEJR, #Stem, #RoboIme, #Grifo, #ImeSec, #CEOS, #Integração, #MatIME, #EcoIME
 {
     border-radius: 5px;
     position: relative;
 }
-#IMEJR img.segunda
+#IMEJR img.segunda, #Stem img.segunda, #RoboIme img.segunda, #Grifo img.segunda, #ImeSec img.segunda,
+#CEOS img.segunda, #Integração img.segunda, #MatIME img.segunda, #EcoIME img.segunda
 {
-    border-radius: 5px;
-    border: solid;
     visibility: hidden;
     opacity: 0;
-    position:absolute;
-    top:0;
-    left: 0;
 }
-#IMEJR img.primeira
+#IMEJR img.primeira, #IMEJR img.segunda, #Stem img.primeira, #Stem img.segunda, #RoboIme img.primeira,
+#RoboIme img.segunda, #Grifo img.primeira, #Grifo img.segunda, #ImeSec img.primeira, #ImeSec img.segunda,
+#CEOS img.primeira, #CEOS img.segunda, #Integração img.primeira, #Integração img.segunda, #MatIME img.primeira,
+#MatIME img.segunda, #EcoIME img.primeira, #EcoIME img.segunda
 {
     border: solid;
     border-radius: 5px;
@@ -110,7 +101,8 @@ button:hover
     top:0;
     left: 0;
 }
-#IMEJR:hover .segunda
+#IMEJR:hover .segunda, #Stem:hover .segunda, #RoboIme:hover .segunda, #Grifo:hover .segunda, #ImeSec:hover .segunda,
+#CEOS:hover .segunda, #Integração:hover .segunda, #MatIME:hover .segunda, #EcoIME:hover .segunda
 {
     visibility: visible;
     opacity: 1;
@@ -119,257 +111,38 @@ button:hover
 }
 #Stem
 {
-    border-radius: 5px;
-    position: relative;
     left: 300px;
-}
-#Stem img.segunda
-{
-    border-radius: 5px;
-    border: solid;
-    visibility: hidden;
-    opacity: 0;
-    position:absolute;
-    top:0;
-    left: 0;
-}
-#Stem img.primeira
-{
-    border: solid;
-    border-radius: 5px;
-    position:absolute;
-    top:0;
-    left: 0;
-}
-#Stem:hover .segunda
-{
-    visibility: visible;
-    opacity: 1;
-    width: 280px;
-    height: 280px;
 }
 #RoboIme
 {
-    border-radius: 5px;
-    position: relative;
     top:350px;
-}
-#RoboIme img.segunda
-{
-    border-radius: 5px;
-    border: solid;
-    visibility: hidden;
-    opacity: 0;
-    position:absolute;
-    top:0;
-    left: 0;
-}
-#RoboIme img.primeira
-{
-    border: solid;
-    border-radius: 5px;
-    position:absolute;
-    top:0;
-    left: 0;
-}
-#RoboIme:hover .segunda
-{
-    visibility: visible;
-    opacity: 1;
-    width: 280px;
-    height: 280px;
 }
 #Grifo
 {
-    border-radius: 5px;
-    position: relative;
     top:350px;
     left: 300px;
 }
-#Grifo img.segunda
-{
-    border-radius: 5px;
-    border: solid;
-    visibility: hidden;
-    opacity: 0;
-    position:absolute;
-    top:0;
-    left: 0;
-}
-#Grifo img.primeira
-{
-    border: solid;
-    border-radius: 5px;
-    position:absolute;
-    top:0;
-    left: 0;
-}
-#Grifo:hover .segunda
-{
-    visibility: visible;
-    opacity: 1;
-    width: 280px;
-    height: 280px;
-}
 #ImeSec
 {
-    border-radius: 5px;
-    position: relative;
-    top:0 px;
+    top: 350px;
     left: 600px;
-}
-#ImeSec img.segunda
-{
-    border-radius: 5px;
-    border: solid;
-    visibility: hidden;
-    opacity: 0;
-    position:absolute;
-    top:0;
-    left: 0;
-}
-#ImeSec img.primeira
-{
-    border: solid;
-    border-radius: 5px;
-    position:absolute;
-    top:0;
-    left: 0;
-}
-#ImeSec:hover .segunda
-{
-    visibility: visible;
-    opacity: 1;
-    width: 280px;
-    height: 280px;
 }
 #CEOS
 {
-    border-radius: 5px;
-    position: relative;
     top:350 px;
     left: 600px;
 }
-#CEOS img.segunda
-{
-    border-radius: 5px;
-    border: solid;
-    visibility: hidden;
-    opacity: 0;
-    position:absolute;
-    top: 350px;;
-    left: 0;
-}
-#CEOS img.primeira
-{
-    border: solid;
-    border-radius: 5px;
-    position:absolute;
-    top: 350px;;
-    left: 0;
-}
-#CEOS:hover .segunda
-{
-    visibility: visible;
-    opacity: 1;
-    width: 280px;
-    height: 280px;
-}
 #Integração
 {
-    border-radius: 5px;
-    position: relative;
     top: 700px;
-    left: 0px;
-}
-#Integração img.segunda
-{
-    border-radius: 5px;
-    border: solid;
-    visibility: hidden;
-    opacity: 0;
-    position:absolute;
-    top:0;
-    left: 0;
-}
-#Integração img.primeira
-{
-    border: solid;
-    border-radius: 5px;
-    position:absolute;
-    top: 0;
-    left: 0;
-}
-#Integração:hover .segunda
-{
-    visibility: visible;
-    opacity: 1;
-    width: 280px;
-    height: 280px;
 }
 #MatIME
 {
-    border-radius: 5px;
-    position: relative;
     top: 700px;
     left: 300px;
 }
-#MatIME img.segunda
-{
-    border-radius: 5px;
-    border: solid;
-    visibility: hidden;
-    opacity: 0;
-    position:absolute;
-    top:0;
-    left: 0;
-}
-#MatIME img.primeira
-{
-    border: solid;
-    border-radius: 5px;
-    position:absolute;
-    top: 0;
-    left: 0;
-}
-#MatIME:hover .segunda
-{
-    visibility: visible;
-    opacity: 1;
-    width: 280px;
-    height: 280px;
-}
 #EcoIME
 {
-    border-radius: 5px;
-    position: relative;
     top: 700px;
     left: 600px;
 }
-#EcoIME img.segunda
-{
-    border-radius: 5px;
-    border: solid;
-    visibility: hidden;
-    opacity: 0;
-    position:absolute;
-    top:0;
-    left: 0;
-}
-#EcoIME img.primeira
-{
-    border: solid;
-    border-radius: 5px;
-    position:absolute;
-    top: 0;
-    left: 0;
-}
-#EcoIME:hover .segunda
-{
-    visibility: visible;
-    opacity: 1;
-    width: 280px;
-    height: 280px;
-}
-
-
