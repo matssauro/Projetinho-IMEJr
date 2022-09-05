@@ -1,45 +1,48 @@
-#ContainerLogin
+body
 {
-    width: 400px;
+    background-color: #051f3b;
+}
+.ContainerLogin
+{
+    width: 25vw;
+    height:100%;
     text-align: center;
-    height:600px;
-    padding-top: 40px;
+    padding-top: 50px;
     position: fixed;
     right: 0px;
+    top:0px;
+    display: inline-block;
 }
-#ContainerImg
+.ContainerImg
 {
-    width:"150px";
-    height:"200px";
-    border-bottom-left-radius: 10px;
-    border-bottom-right-radius: 10px;
+    margin: auto;
+    box-shadow: 0px 0px 30px #ffab24;
+    border-radius: 5px 5px 100px 100px;
+    width: 150px;
+    height: 200px;
+}
+#ContainerImg img
+{
+    width: 150px;
+    height: 200px;
+    box-shadow: 0px 0px 20px #ffab24;
+    border-radius: 5px 5px 100px 100px;
+  
 }
 input
 {
     border: 2px solid;
     border-radius: 4px;
-    margin: 10px 0px;
+    margin: 5px 0px;
     width:250px;
     height: 35px;
 }
 form
 {
+    margin-left: 5px;
     align-items:center;
     margin-left: auto;
     margin-right: auto;
-
-}
-button
-{
-    width: 200px;
-    height: 35px;
-    font-size: x-large;
-    border-radius: 4px;
-    background-color: white;
-}
-button:hover
-{
-    background-color: #043b74;
 }
 .modal {
     position: fixed;
@@ -82,294 +85,439 @@ button:hover
     font-size: 20px;
     color: #8d0000;
   }
-#ContainerIniciativas
+.botaoCriarNovaConta
 {
-    text-align: center;
-    width: 850px;
+    border-radius: 4px;
+    color: black;
+    border: 2px solid black;
+    padding: 10px 15px;
+    text-decoration: none;
+    background-color: #fff;
+    font-size: x-large;
 }
-#IMEJR
+.botaoCriarNovaConta:hover
 {
+    background-color: #043b74;
+}
+.botaoEntrar
+{
+    border-radius: 4px;
+    color: black;
+    border: 2px solid black;
+    padding: 10px 70px;
+    text-decoration: none;
+    background-color: #fff;
+    font-size: x-large;
+}
+.botaoEntrar:hover
+{
+    background-color: #043b74;
+}
+.botaoCriar
+{
+    border-radius: 4px;
+    color: black;
+    border: 2px solid black;
+    padding: 12px 70px;
+    text-decoration: none;
+    background-color: #fff;
+    font-size: x-large;
+}
+.botaoCriar:hover
+{
+    background-color: #043b74;
+}
+.ContainerIniciativas
+{
+    width: 75vw;
+    margin: 0px;
+    padding: 0px;
+    top: 0px;
+}
+#Titulo
+{
+    width: 100%;
+    margin: auto;
     border-radius: 5px;
-    position: relative;
-}
-#IMEJR img.segunda
-{
-    border-radius: 5px;
-    border: solid;
-    visibility: hidden;
-    opacity: 0;
-    position:absolute;
-    top:0;
-    left: 0;
-}
-#IMEJR img.primeira
-{
-    border: solid;
-    border-radius: 5px;
-    position:absolute;
-    top:0;
-    left: 0;
-}
-#IMEJR:hover .segunda
-{
-    visibility: visible;
-    opacity: 1;
-    width: 280px;
-    height: 280px;
-}
-#Stem
-{
-    border-radius: 5px;
-    position: relative;
-    left: 300px;
-}
-#Stem img.segunda
-{
-    border-radius: 5px;
-    border: solid;
-    visibility: hidden;
-    opacity: 0;
-    position:absolute;
-    top:0;
-    left: 0;
-}
-#Stem img.primeira
-{
-    border: solid;
-    border-radius: 5px;
-    position:absolute;
-    top:0;
-    left: 0;
-}
-#Stem:hover .segunda
-{
-    visibility: visible;
-    opacity: 1;
-    width: 280px;
-    height: 280px;
-}
-#RoboIme
-{
-    border-radius: 5px;
-    position: relative;
-    top:350px;
-}
-#RoboIme img.segunda
-{
-    border-radius: 5px;
-    border: solid;
-    visibility: hidden;
-    opacity: 0;
-    position:absolute;
-    top:0;
-    left: 0;
-}
-#RoboIme img.primeira
-{
-    border: solid;
-    border-radius: 5px;
-    position:absolute;
-    top:0;
-    left: 0;
-}
-#RoboIme:hover .segunda
-{
-    visibility: visible;
-    opacity: 1;
-    width: 280px;
-    height: 280px;
-}
-#Grifo
-{
-    border-radius: 5px;
-    position: relative;
-    top:350px;
-    left: 300px;
-}
-#Grifo img.segunda
-{
-    border-radius: 5px;
-    border: solid;
-    visibility: hidden;
-    opacity: 0;
-    position:absolute;
-    top:0;
-    left: 0;
-}
-#Grifo img.primeira
-{
-    border: solid;
-    border-radius: 5px;
-    position:absolute;
-    top:0;
-    left: 0;
-}
-#Grifo:hover .segunda
-{
-    visibility: visible;
-    opacity: 1;
-    width: 280px;
-    height: 280px;
-}
-#ImeSec
-{
-    border-radius: 5px;
-    position: relative;
-    top:0 px;
-    left: 600px;
-}
-#ImeSec img.segunda
-{
-    border-radius: 5px;
-    border: solid;
-    visibility: hidden;
-    opacity: 0;
-    position:absolute;
-    top:0;
-    left: 0;
-}
-#ImeSec img.primeira
-{
-    border: solid;
-    border-radius: 5px;
-    position:absolute;
-    top:0;
-    left: 0;
-}
-#ImeSec:hover .segunda
-{
-    visibility: visible;
-    opacity: 1;
-    width: 280px;
-    height: 280px;
-}
-#CEOS
-{
-    border-radius: 5px;
-    position: relative;
-    top:350 px;
-    left: 600px;
-}
-#CEOS img.segunda
-{
-    border-radius: 5px;
-    border: solid;
-    visibility: hidden;
-    opacity: 0;
-    position:absolute;
-    top: 350px;;
-    left: 0;
-}
-#CEOS img.primeira
-{
-    border: solid;
-    border-radius: 5px;
-    position:absolute;
-    top: 350px;;
-    left: 0;
-}
-#CEOS:hover .segunda
-{
-    visibility: visible;
-    opacity: 1;
-    width: 280px;
-    height: 280px;
-}
-#Integração
-{
-    border-radius: 5px;
-    position: relative;
-    top: 700px;
-    left: 0px;
-}
-#Integração img.segunda
-{
-    border-radius: 5px;
-    border: solid;
-    visibility: hidden;
-    opacity: 0;
-    position:absolute;
-    top:0;
-    left: 0;
-}
-#Integração img.primeira
-{
-    border: solid;
-    border-radius: 5px;
-    position:absolute;
-    top: 0;
-    left: 0;
-}
-#Integração:hover .segunda
-{
-    visibility: visible;
-    opacity: 1;
-    width: 280px;
-    height: 280px;
-}
-#MatIME
-{
-    border-radius: 5px;
-    position: relative;
-    top: 700px;
-    left: 300px;
-}
-#MatIME img.segunda
-{
-    border-radius: 5px;
-    border: solid;
-    visibility: hidden;
-    opacity: 0;
-    position:absolute;
-    top:0;
-    left: 0;
-}
-#MatIME img.primeira
-{
-    border: solid;
-    border-radius: 5px;
-    position:absolute;
-    top: 0;
-    left: 0;
-}
-#MatIME:hover .segunda
-{
-    visibility: visible;
-    opacity: 1;
-    width: 280px;
-    height: 280px;
-}
-#EcoIME
-{
-    border-radius: 5px;
-    position: relative;
-    top: 700px;
-    left: 600px;
-}
-#EcoIME img.segunda
-{
-    border-radius: 5px;
-    border: solid;
-    visibility: hidden;
-    opacity: 0;
-    position:absolute;
-    top:0;
-    left: 0;
-}
-#EcoIME img.primeira
-{
-    border: solid;
-    border-radius: 5px;
-    position:absolute;
-    top: 0;
-    left: 0;
-}
-#EcoIME:hover .segunda
-{
-    visibility: visible;
-    opacity: 1;
-    width: 280px;
-    height: 280px;
 }
 
+.IMEJR
+{
+    border-radius: 5px;
+    padding-left: 50px;
+    width: max-content;
+    display:inline-block;
+  
+}
+.IMEJR img.segunda
+{
+    border-radius: 5px;
+    border: solid black;
+    visibility: hidden;
+    opacity: 0;
+    position:relative;
+}
+.IMEJR img.primeira
+{
+    border: solid black;
+    border-radius: 5px;
+    position:absolute;
+}
 
+.IMEJR:hover .segunda
+{
+    border: solid black;
+    visibility: visible;
+    opacity: 1;
+    width: 280px;
+    height: 280px;
+}
+.Stem
+{
+    border-radius: 5px;
+    padding-left: 50px;
+    width: max-content;
+    display: inline-block;
+}
+.Stem img.segunda
+{
+    border-radius: 5px;
+    border: solid;
+    visibility: hidden;
+    opacity: 0;
+    position: relative;
+   
+}
+.Stem img.primeira
+{
+    border: solid;
+    border-radius: 5px;
+    position: absolute;
+  
+}
+.Stem:hover .segunda
+{
+    visibility: visible;
+    opacity: 1;
+    width: 280px;
+    height: 280px;
+    border: solid black;
+}
+.RoboIme
+{
+    border-radius: 5px;
+    width: max-content;
+    padding-left: 50px;
+    display: inline-block;
+
+}
+.RoboIme img.segunda
+{
+    border-radius: 5px;
+    border: solid;
+    visibility: hidden;
+    opacity: 0;
+    position:relative;
+}
+.RoboIme img.primeira
+{
+    border: solid;
+    border-radius: 5px;
+    position:absolute;
+}
+.RoboIme:hover .segunda
+{
+    visibility: visible;
+    opacity: 1;
+    width: 280px;
+    height: 280px;
+    border: solid black;
+}
+.Grifo
+{
+    border-radius: 5px;
+    width: max-content;
+    padding-left: 50px;
+    display: inline-block;
+
+}
+.Grifo img.segunda
+{
+    border-radius: 5px;
+    border: solid;
+    visibility: hidden;
+    opacity: 0;
+    position:relative;
+}
+.Grifo img.primeira
+{
+    border: solid;
+    border-radius: 5px;
+    position:absolute;
+}
+.Grifo:hover .segunda
+{
+    visibility: visible;
+    opacity: 1;
+    width: 280px;
+    height: 280px;
+    border: solid black;
+}
+.ImeSec
+{
+    border-radius: 5px;
+    width: max-content;
+    padding-left: 50px;
+    display: inline-block;
+
+}
+.ImeSec img.segunda
+{
+    border-radius: 5px;
+    border: solid;
+    visibility: hidden;
+    opacity: 0;
+    position:relative;
+}
+.ImeSec img.primeira
+{
+    border: solid;
+    border-radius: 5px;
+    position:absolute;
+}
+.ImeSec:hover .segunda
+{
+    visibility: visible;
+    opacity: 1;
+    width: 280px;
+    height: 280px;
+    border: solid black;
+}
+.CEOS
+{
+    border-radius: 5px;
+    width: max-content;
+    padding-left: 50px;
+    display: inline-block;
+
+}
+.CEOS img.segunda
+{
+    border-radius: 5px;
+    border: solid;
+    visibility: hidden;
+    opacity: 0;
+    position:relative;
+}
+.CEOS img.primeira
+{
+    border: solid;
+    border-radius: 5px;
+    position:absolute;
+}
+.CEOS:hover .segunda
+{
+    visibility: visible;
+    opacity: 1;
+    width: 280px;
+    height: 280px;
+    border: solid black;
+}
+.Integração
+{
+    border-radius: 5px;
+    width: max-content;
+    padding-left: 50px;
+    display: inline-block;
+
+}
+.Integração img.segunda
+{
+    border-radius: 5px;
+    border: solid;
+    visibility: hidden;
+    opacity: 0;
+    position:relative;
+}
+.Integração img.primeira
+{
+    border: solid;
+    border-radius: 5px;
+    position:absolute;
+}
+.Integração:hover .segunda
+{
+    visibility: visible;
+    opacity: 1;
+    width: 280px;
+    height: 280px;
+    border: solid black;
+}
+.MatIME
+{
+    border-radius: 5px;
+    width: max-content;
+    padding-left: 50px;
+    display: inline-block;
+
+}
+.MatIME img.segunda
+{
+    border-radius: 5px;
+    border: solid;
+    visibility: hidden;
+    opacity: 0;
+    position:relative;
+}
+.MatIME img.primeira
+{
+    border: solid;
+    border-radius: 5px;
+    position:absolute;
+}
+.MatIME:hover .segunda
+{
+    visibility: visible;
+    opacity: 1;
+    width: 280px;
+    height: 280px;
+    border: solid black;
+}
+.EcoIME
+{
+    border-radius: 5px;
+    width: max-content;
+    padding-left: 50px;
+    display: inline-block;
+
+}
+.EcoIME img.segunda
+{
+    border-radius: 5px;
+    border: solid;
+    visibility: hidden;
+    opacity: 0;
+    position:relative;
+}
+.EcoIME img.primeira
+{
+    border: solid;
+    border-radius: 5px;
+    position:absolute;
+}
+.EcoIME:hover .segunda
+{
+    visibility: visible;
+    opacity: 1;
+    width: 280px;
+    height: 280px;
+    border: solid black;
+}
+@media (max-width:600px)
+{
+    .ContainerIniciativas
+    {
+        margin: auto;
+        width: 100%;
+        display: list-item;
+        position:relative;
+        
+    }
+    .ContainerLogin
+    {
+        margin: auto;
+      display: list-item;
+        right: auto;
+        width: 100%;
+        height:100%;
+        position:initial;
+    }
+    .IMEJR, .Stem, .RoboIme, .Grifo, .ImeSec, .CEOS, .Integração, .MatIME, .EcoIME
+    {
+        display: list-item;
+        margin: auto;
+        padding-left: 0px;
+
+    
+    }
+    .IMEJR:hover .segunda, .Stem:hover .segunda, .RoboIme:hover .segunda, .Grifo:hover .segunda, .ImeSec:hover .segunda, .CEOS:hover .segunda, .Integração:hover .segunda, .MatIME:hover .segunda, .EcoIME:hover .segunda
+    {
+        width: 270px;
+        height: 270px;
+    }
+}
+@media (min-width:600px) and (max-width:1000px)
+{
+    .ContainerIniciativas
+    {
+        width: 65%;
+        display: list-item;
+        position: relative;
+        
+    }
+    .ContainerLogin
+    {
+        width: 35%;
+        height: auto;
+        position: absolute;
+        right: 0px;
+
+    }
+    .IMEJR, .Stem, .RoboIme, .Grifo, .ImeSec, .CEOS, .Integração, .MatIME, .EcoIME
+    {
+        display: list-item;
+        margin: auto;
+        padding-left: 0px;
+
+    
+    }
+    .IMEJR:hover .segunda, .Stem:hover .segunda, .RoboIme:hover .segunda, .Grifo:hover .segunda, .ImeSec:hover .segunda, .CEOS:hover .segunda, .Integração:hover .segunda, .MatIME:hover .segunda, .EcoIME:hover .segunda
+    {
+        width: 270px;
+        height: 270px;
+    }
+    input
+{
+    margin: 5px 0px;
+    width:170px;
+}
+.botaoCriarNovaConta
+{
+    padding: 5px 7px;
+}
+.botaoEntrar
+{
+    padding: 7px 50px;
+}
+}
+@media (min-width:1000px) and (max-width:1300px)
+{
+    .ContainerIniciativas
+    {
+        width: 75%;
+    }
+    .ContainerLogin
+    {
+        width: 25%;
+        position: absolute;
+
+    }
+    .IMEJR:hover .segunda, .Stem:hover .segunda, .RoboIme:hover .segunda, .Grifo:hover .segunda, .ImeSec:hover .segunda, .CEOS:hover .segunda, .Integração:hover .segunda, .MatIME:hover .segunda, .EcoIME:hover .segunda
+    {
+        width: 270px;
+        height: 270px;
+    }
+    input
+    {
+        margin: 5px 0px;
+        width:170px;
+    }
+    .botaoCriarNovaConta
+    {
+        padding: 5px 7px;
+    }
+    .botaoEntrar
+    {
+        padding: 7px 50px;
+    }
+}
