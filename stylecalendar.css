@@ -1,0 +1,308 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Quicksand", sans-serif;
+  }
+  
+  html {
+    font-size: 75%;
+  }
+  
+  .container {
+    margin-top: 6.5%;
+    width: 100%;
+    height: 100vh;
+    /*background-color: #12121f;*/
+    color: #eee;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .calendar {
+    width: 45rem;
+    height: 52rem;
+    background-color: #222227;
+    box-shadow: 0 0.5rem 3rem rgba(0, 0, 0, 0.4);
+  }
+  
+  .month {
+    width: 100%;
+    height: 12rem;
+    background-color: #711613;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 2rem;
+    text-align: center;
+    text-shadow: 0 0.3rem 0.5rem rgb(23, 49, 178);
+  }
+  
+  .month i {
+    font-size: 2.5rem;
+    cursor: pointer;
+  }
+  
+  .month h1 {
+    font-size: 3rem;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 0.2rem;
+    margin-bottom: 1rem;
+  }
+  
+  .month p {
+    font-size: 1.6rem;
+  }
+  
+  .weekdays {
+    width: 100%;
+    height: 5rem;
+    padding: 0 0.4rem;
+    display: flex;
+    align-items: center;
+  }
+  
+  .weekdays div {
+    font-size: 1.5rem;
+    font-weight: 400;
+    letter-spacing: 0.1rem;
+    width: calc(44.2rem / 7);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-shadow: 0 0.3rem 0.5rem rgba(0, 0, 0, 0.5);
+  }
+
+  
+  .days {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0.2rem;
+  }
+  
+  .days div {
+    font-size: 1.4rem;
+    margin: 0.3rem;
+    width: calc(40.2rem / 7);
+    height: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-shadow: 0 0.3rem 0.5rem rgba(0, 0, 0, 0.5);
+    transition: background-color 0.2s;
+  }
+  
+  .days div:hover:not(#hj) {
+    background-color: #262626;
+    border: 0.2rem solid #777;
+    cursor: pointer;
+  }
+  
+  
+  #hj {
+    background-color: #11337c;
+  }
+
+
+  .days div:nth-child(-n+4)
+    {
+        color: rgb(113, 113, 113);
+    }
+.days div:nth-last-child(1)
+    {
+        color: rgb(113, 113, 113);
+    }
+
+    .header{
+        display: flex;
+        width: 100%;
+        height: 60px;
+        position: fixed;
+        align-items: center;
+        justify-content: space-between;
+        flex-direction: row;
+        background-color: #ffffff;
+        border-radius: 0 0 1rem 1rem;
+        box-shadow: 0 10px 10px rgba(0,0,0,0.3);
+        z-index: 100;
+    }
+    .background{
+        display: flex;
+        width: 100%;
+        height: 450vh;
+        background: linear-gradient(to right,#1387fa, #b70002, #b70002, #b70002, #1387fa);
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .content{
+        background: #fafafa;
+        width: 75%;
+        height: 450vh;
+        z-index: 1;
+    }
+    .home, .perfil, .logo{
+        height: 40px;
+        width: 200px;
+    }
+    .home{
+        margin-left: 20px;
+        justify-items: flex-start;
+    }
+    .home img{
+        height: 40px;
+        width: auto;
+    }
+    .logo{
+        display:flex;
+        justify-content: center;
+    }
+    .logo img{
+        height: 50px;
+        width: auto;
+    }
+    .perfil{
+        display: flex;
+        margin-right: 20px;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .img-perfil{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        border: 2px solid #1387fa;
+    }
+    .img-perfil img{  
+        width: 40px;
+        height: 40px;
+        object-fit: cover;
+        border-radius: 50%;
+        object-position: center;
+    }
+    .nota{
+        display: flex;
+        align-self: flex-start;
+        flex-direction: column;
+        height: 40px;
+        width:110px;
+        font-size: 12px;
+    }
+    
+    .media
+        {
+            display: flex;
+            justify-content: flex-start;
+            justify-self: flex-start;
+            font-size: 30px;
+            width: 150px;
+            background-color: #dc0508;
+            ;
+        }
+    #sv
+        {
+            background-color: #dc0508;
+        }
+    #vd
+        {
+            background-color: green;
+        }
+    
+.container h2
+        {
+            font-family: 'Times New Roman', Times, serif;
+            font-size: 700%;
+            color: black;
+            margin-bottom: 2%;
+        }
+
+
+.legenda
+        {
+            margin: 5%;
+            width: 100%;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+
+        }
+
+
+
+.legenda div div p
+        {
+            display: flex;
+            align-self: center;
+            justify-content: center;
+            margin-top: 15%;
+            font-family: 'Times New Roman', Times, serif;
+            font-size: 200%;
+            color: #222227;
+        }
+
+.pnd
+        {
+            height: auto;
+            width: 10%;
+            display: flex;
+            justify-content: space-around;
+        }
+
+
+
+
+
+.svc
+        {
+            height: auto;
+            width: 10%;
+            display: flex;
+            justify-content: space-around
+        }
+
+
+
+
+.hoje
+        {   height:auto;
+            width: 10%;
+            display: flex;
+            justify-content: space-around;
+        }
+
+.verde
+        {
+            align-self: center;
+            height: 15px;
+            width: 15px;
+            padding: 15px;
+            background-color: green;
+            border-radius: 100%;
+        }
+
+.vermelho
+        {
+            align-self: center;
+            height: 15px;
+            width: 15px;
+            padding: 15px;
+            background-color: red;
+            border-radius: 100%;
+        }
+
+.azul
+        {
+            margin-top: 8%;
+            height: 15px;
+            width: 15px;
+            padding: 15px;
+            background-color: #11337c;
+            border-radius: 100%;
+        }
