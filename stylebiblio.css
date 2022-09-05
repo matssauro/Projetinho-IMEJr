@@ -1,0 +1,193 @@
+html{
+    font-size: 125%;
+}
+
+
+
+.header{
+    display: flex;
+    width: 100%;
+    height: 60px;
+    position: fixed;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+    background-color: #ffffff;
+    border-radius: 0 0 1rem 1rem;
+    box-shadow: 0 10px 10px rgba(0,0,0,0.3);
+    z-index: 100;
+}
+.background{
+    display: flex;
+    width: 100%;
+    height: 450vh;
+    background: linear-gradient(to right,#1387fa, #b70002, #b70002, #b70002, #1387fa);
+    align-items: center;
+    justify-content: center;
+}
+
+.content{
+    background: #fafafa;
+    width: 75%;
+    height: 450vh;
+    z-index: 1;
+}
+.home, .perfil, .logo{
+    height: 40px;
+    width: 200px;
+}
+.home{
+    margin-left: 20px;
+    justify-items: flex-start;
+}
+.home img{
+    height: 40px;
+    width: auto;
+}
+.logo{
+    display:flex;
+    justify-content: center;
+}
+.logo img{
+    height: 50px;
+    width: auto;
+}
+.perfil{
+    display: flex;
+    margin-right: 20px;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.img-perfil{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 2px solid #1387fa;
+}
+.img-perfil img{  
+    width: 40px;
+    height: 40px;
+    object-fit: cover;
+    border-radius: 50%;
+    object-position: center;
+}
+.nota{
+    display: flex;
+    align-self: flex-start;
+    flex-direction: column;
+    height: 40px;
+    width:110px;
+    font-size: 12px;
+}
+
+.media
+    {
+        display: flex;
+        justify-content: flex-start;
+        justify-self: flex-start;
+        font-size: 30px;
+        width: 150px;
+        background-color: #dc0508;
+        ;
+    }
+
+    
+        .tabela1
+                {
+                    width: auto;
+                    display: flex;
+                    align-content: center;
+                    justify-content: center;
+                    margin-top: 45px;
+
+                }
+
+       
+
+
+
+
+
+
+        caption
+                {
+                    margin: 20px;
+                    font-size: 80px;
+                    /* #C12B2C*/
+                }
+                
+
+        .tabela1 th
+            {
+                width: auto;
+                height: auto;
+                top: 0;
+                background-color: rgb(71, 44, 2);
+                padding: 12px;
+                text-align: left;
+            }
+
+            .tabela tr,td
+                {
+                    padding: 15px;
+                }
+
+
+        .tabela1 table, td
+                    {
+                        
+                       border-collapse: collapse;
+                       border: 2px;
+                        /*border-bottom: 2px solid rgb(41, 116, 228);*/
+                        
+                        padding: 12px;/* Distância do Data das linhas de tabela! (ou célula))=*/
+                    }
+    
+        .tabela1 table tr:hover
+                    {
+                        z-index: 100;
+                        background-color:rgb(255, 255, 120);
+                        font-size: 100%;
+                    }
+        
+        .tabela1 table tr:nth-child(5):hover
+                    {
+                        background-color: rgba(255, 69, 69, 0.551);
+                        font-size: 100%;
+                    }
+        .tabela1 table tr:nth-child(8):hover
+                    {
+                        background-color: rgba(255, 69, 69, 0.551);
+                        font-size: 100%;
+                    }                    
+
+        .tabela1 table tr:nth-last-child(1):hover
+                    {
+                        background-color: #013476b8;
+                    }
+
+
+
+        .tabela1 table tr:hover
+                    {
+                        z-index: 99;
+                        background-color: #eacd0f98;
+                        font-size: 100%;
+                    }
+
+
+
+        .tabela1 tr:last-of-type
+                    {
+                        border-bottom: 3px solid #432c01;
+                    }
+       
+                    
+        table
+                    {
+                        box-shadow: 0 0 25px 10px #888;
+                    }
+        
