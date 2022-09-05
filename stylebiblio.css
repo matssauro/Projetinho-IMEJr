@@ -1,8 +1,11 @@
 html{
     font-size: 125%;
 }
-
-
+*{
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
 
 .header{
     display: flex;

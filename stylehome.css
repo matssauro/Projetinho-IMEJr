@@ -4,14 +4,17 @@ body
 }
 .ContainerLogin
 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
     width: 25vw;
     height:100%;
     text-align: center;
-    padding-top: 50px;
+    padding-top: 0;
     position: fixed;
     right: 0px;
     top:0px;
-    display: inline-block;
 }
 .ContainerImg
 {
@@ -127,11 +130,24 @@ form
 {
     background-color: #043b74;
 }
+.iniciativas{
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding-left: 9vw;
+    padding-right: 9vw;
+}
 .ContainerIniciativas
 {
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
     width: 75vw;
     margin: 0px;
-    padding: 0px;
     top: 0px;
 }
 #Titulo
@@ -458,7 +474,7 @@ form
     .ContainerLogin
     {
         width: 35%;
-        height: auto;
+        height: 100%;
         position: absolute;
         right: 0px;
 
